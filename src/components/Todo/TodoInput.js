@@ -18,9 +18,9 @@ function TodoInput(){
   return(
     <>
       <div className="todo__input">
-        <form onSubmit={handleSubmit}>
-          <input ref={inputRef} name="content"></input>
-          <button type="submit">Submit</button>
+        <form onSubmit={handleSubmit} className="todo__input--form">
+          <input placeholder="Add a new task" className="todo__input--textBox" ref={inputRef} name="content"></input>
+          <button className="todo__input--submit" type="submit">+</button>
         </form>
       </div>
     </>

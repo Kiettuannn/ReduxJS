@@ -1,27 +1,46 @@
 import { completedTodo, deleteTodo, undoTodo } from "../../actions/todo";
 import "./Todo.scss";
 import {useDispatch, useSelector} from 'react-redux'
+import { AiOutlineUndo } from "react-icons/ai";
+import { FaCheck } from "react-icons/fa";
+import { MdDeleteForever } from "react-icons/md";
+
+
 function TodoList(){
   const todoList = useSelector(state => state.todoReducer);
   const dispatch = useDispatch();
   return(
     <>
       {todoList &&(
-        <ul className="todo__list">
+        <div className="todo__list">
           {todoList.map(item => (
-            <li className="todo__item" key={item.id}>
+            <div className="todo__item" key={item.id}>
               <span className={"todo__content " + (item.completed && "todo__content--completed")}>
                 {item.content}
               </span>
-              {item.completed? (
-                <button onClick={() => dispatch(undoTodo(item.id))}>U</button>
-              ) :(
-                <button onClick={() => dispatch(completedTodo(item.id))}>V</button>
-              )}
-              <button onClick={() => dispatch(deleteTodo(item.id))}>X</button>
-            </li>
+              <div className="todo__button">
+                {item.completed? (
+                  <button className="todo__button--undo" onClick={() => dispatch(undoTodo(item.id))}>
+                    <div>
+                      <AiOutlineUndo />
+                    </div>
+                  </button>
+                ) :(
+                  <button className="todo__button--completed" onClick={() => dispatch(completedTodo(item.id))}>
+                    <div>
+                      <FaCheck />
+                    </div>
+                  </button>
+                )}
+                <button className="todo__button--delete" onClick={() => dispatch(deleteTodo(item.id))}>
+                  <div>
+                    <MdDeleteForever />
+                  </div>
+                  </button>
+              </div>
+            </div>
           ))}
-        </ul>
+        </div>
       )}
     </>
   )

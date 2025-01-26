@@ -42,7 +42,7 @@ const todoReducer = (state = init,action) =>{
         return newState;
     case "DELETE_TODO":
         const deleteFilter = newState.filter(item => {
-          return item.id != action.id
+          return item.id !== action.id
         })
         return deleteFilter;
     default:

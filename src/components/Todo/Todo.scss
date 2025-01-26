@@ -1,0 +1,9 @@
+.todo{
+  &__content{
+    font-weight: 700; 
+  
+    &--completed{
+      text-decoration: line-through;
+    }      
+  }
+}

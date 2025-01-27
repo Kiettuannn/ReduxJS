@@ -44,8 +44,10 @@
 - ![image](https://github.com/user-attachments/assets/d783b406-2864-46a5-8a44-6b435ddcf856)
 
 - **Bước 3:** Thêm các action vào file action
+![image](https://github.com/user-attachments/assets/051b2c20-8389-4053-b3c4-57b2562e7a74)
 
 - **Bước 4:** Thêm reducer vào file reducer, file này sẽ xử lý logic cho các case
+![image](https://github.com/user-attachments/assets/772a0d4a-001a-419c-b1aa-f7c8d114ed95)
 
 - **Bước 5:** Tạo file index.js trong folder reducer để chứa allReducer
 - 

@@ -28,7 +28,6 @@
 ## Các bước sử dụng:
 - **Bước 1:** Cài đặt redux bằng câu lệnh npm install redux react-redux (chỉ cần cài 1 lần)
 - **Bước 2:** Tạo cấu trúc thư mục (thêm folder actions, reducers)
-     ![image](https://github.com/user-attachments/assets/ef1e0d9b-0c5e-4348-aae3-8d32e2ea0acb)
 - **Bước 3:** Thêm những action vào file actions/tenFile.js
 - **Bước 4:** Thêm reducer vào file reducer/tenFile.js
 - **Bước 5:** Tạo file reducers/index.js đê gộp tất cả reducer lại và cho vào cùng một store.

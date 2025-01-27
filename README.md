@@ -50,11 +50,16 @@
 ![image](https://github.com/user-attachments/assets/772a0d4a-001a-419c-b1aa-f7c8d114ed95)
 
 - **Bước 5:** Tạo file index.js trong folder reducer để chứa allReducer
-- 
+- ![image](https://github.com/user-attachments/assets/47627801-6866-4433-9400-d9b944660761)
+
 - **Bước 6:** Đăng ký ở file index.js của dự án
+- ![image](https://github.com/user-attachments/assets/afac52ce-64c9-491e-8ff4-2bdac5965159)
+
 - **Bước 7:** Các thao tác để lấy data từ component
      + Sử dụng useSelector để lấy các state từ store
      + Sử dụng useDispatch để trả về function dispatch, truyền các action vào dispatch để cập nhập lại state
+  ![image](https://github.com/user-attachments/assets/ced30087-fca3-4037-ae1d-33e09f3afe67)
+
 
           
 

@@ -41,6 +41,7 @@
 ## Counter
 - **Bước 1:** Cài đặt bằng câu lệnh: npm install redux react-redux
 - **Bước 2:** Tạo cấu trúc thư mục
+- ![image](https://github.com/user-attachments/assets/d783b406-2864-46a5-8a44-6b435ddcf856)
 
 - **Bước 3:** Thêm các action vào file action
 

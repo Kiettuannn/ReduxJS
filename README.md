@@ -39,21 +39,16 @@
 
 ### `Ví dụ mẫu`
 ## Counter
-**Bước 1:** Cài đặt bằng câu lệnh: npm install redux react-redux
-**Bước 2:** Tạo cấu trúc thư mục
-![image](https://github.com/user-attachments/assets/eed0f804-8c3b-452f-8b64-a60e072dc923)
-**Bước 3:** Thêm các action vào file action
-![image](https://github.com/user-attachments/assets/833c9cc9-097c-4237-a99a-933cc5d64416)
-**Bước 4:** Thêm reducer vào file reducer, file này sẽ xử lý logic cho các case
-![image](https://github.com/user-attachments/assets/1cc3ae2b-c205-4658-aa41-bf0ec76bad88)
-**Bước 5:** Tạo file index.js trong folder reducer để chứa allReducer
-![image](https://github.com/user-attachments/assets/0e6093f7-b78c-408b-9daf-a4734734bbed)
-**Bước 6:** Đăng ký ở file index.js của dự án
-![Uploading image.png…]()
-**Bước 7:** Các thao tác để lấy data từ component
+- **Bước 1:** Cài đặt bằng câu lệnh: npm install redux react-redux
+- **Bước 2:** Tạo cấu trúc thư mục
+
+- **Bước 3:** Thêm các action vào file action
+- **Bước 4:** Thêm reducer vào file reducer, file này sẽ xử lý logic cho các case
+- **Bước 5:** Tạo file index.js trong folder reducer để chứa allReducer
+- **Bước 6:** Đăng ký ở file index.js của dự án
+- **Bước 7:** Các thao tác để lấy data từ component
      + Sử dụng useSelector để lấy các state từ store
      + Sử dụng useDispatch để trả về function dispatch, truyền các action vào dispatch để cập nhập lại state
-![Uploading image.png…]()
 
           
 

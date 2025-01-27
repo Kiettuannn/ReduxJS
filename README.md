@@ -13,10 +13,11 @@
 - Thì data của các component sẽ được lưu vào store, khi cần chỉ cần lấy từ store ra thôi
 
 ## Cách cài đặt
-Sử dụng câu lệnh: npm install redux react-redux
+**Sử dụng câu lệnh: npm install redux react-redux**
 
 ## Cách hoạt động của Redux
-![image](https://github.com/user-attachments/assets/7ee5206b-8778-46e8-8f24-57ab9dada997)
+![Uploading image.png…]()
+
 - **Store**: là một kho lưu trữ các state và phân phát các state cho các component
 - **Action**: Những hành động có thể xảy ra
 - **Dispatch**: Dùng để kích hoạt một action và gửi action đến reducer

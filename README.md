@@ -16,13 +16,13 @@
 **Sử dụng câu lệnh: npm install redux react-redux**
 
 ## Cách hoạt động của Redux
-- ![Uploading image.png…]()
-
 - **Store**: là một kho lưu trữ các state và phân phát các state cho các component
 - **Action**: Những hành động có thể xảy ra
 - **Dispatch**: Dùng để kích hoạt một action và gửi action đến reducer
 - **Reducer**: Dùng để tiếp nhận các action mà dispatch gửi đến, sau đó nó sẽ xử lí các login (các case) và sẽ lưu lại kết quả vào store
 - **Luồng hoạt động của Redux**: Tưởng tượng các action như là một gói hàng sẽ được dispatch(như cái xe) vận chuyển gói hàng action này tới nhà máy (reducer) , tại nhà máy này sẽ xử lí logic cho gói hàng và đồng thời sẽ lưu lại giá trị mới của state gói hàng
+- ![image](https://github.com/user-attachments/assets/bd6bb883-6585-4889-a947-a6cd154fb055)
+
 
 ### `useContext`
 ## Các bước sử dụng:

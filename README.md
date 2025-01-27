@@ -9,7 +9,7 @@
 ![image](https://github.com/user-attachments/assets/699cc94c-91e0-4140-bc8c-df156f6ca865)
 - Để truyền data từ E sang G thì cần phải thông qua App rồi mới tới được G
 # Nếu sử dụng Redux
-![image](https://github.com/user-attachments/assets/588bc200-0900-454c-a62a-baff2128d9c2)
+![image](https://github.com/user-attachments/assets/6e8c2c5e-048d-48af-9a85-93ad880eefd3)
 - Thì data của các component sẽ được lưu vào store, khi cần chỉ cần lấy từ store ra thôi
 
 ## Cách cài đặt

@@ -16,7 +16,7 @@
 **Sử dụng câu lệnh: npm install redux react-redux**
 
 ## Cách hoạt động của Redux
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/aac457e4-db00-4c86-84cc-5ed7a7fe591d)
 
 - **Store**: là một kho lưu trữ các state và phân phát các state cho các component
 - **Action**: Những hành động có thể xảy ra
@@ -41,10 +41,16 @@
 ## Counter
 - **Bước 1:** Cài đặt bằng câu lệnh: npm install redux react-redux
 - **Bước 2:** Tạo cấu trúc thư mục
+- ![image](https://github.com/user-attachments/assets/9586cf01-d7b1-4551-acab-fb5c6ce44950)
 
 - **Bước 3:** Thêm các action vào file action
+- ![image](https://github.com/user-attachments/assets/76367b70-3e08-494f-839f-c0982977d158)
+
 - **Bước 4:** Thêm reducer vào file reducer, file này sẽ xử lý logic cho các case
+- ![Uploading image.png…]()
+
 - **Bước 5:** Tạo file index.js trong folder reducer để chứa allReducer
+- 
 - **Bước 6:** Đăng ký ở file index.js của dự án
 - **Bước 7:** Các thao tác để lấy data từ component
      + Sử dụng useSelector để lấy các state từ store
